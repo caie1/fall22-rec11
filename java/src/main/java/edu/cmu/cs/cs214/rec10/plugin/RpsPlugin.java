@@ -28,15 +28,6 @@ public class RpsPlugin implements GamePlugin<String> {
         return GAME_NAME;
     }
 
-    @Override
-    public int getGridWidth() {
-        return WIDTH;
-    }
-
-    @Override
-    public int getGridHeight() {
-        return HEIGHT;
-    }
 
     @Override
     public void onRegister(GameFramework f) {
